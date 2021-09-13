@@ -9,9 +9,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hello my name is',
+  name: 'Lauri',
+  subtitle: 'I am software Developer / Tester',
   cta: '',
 };
 
@@ -21,37 +21,46 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://www.linkedin.com/in/laurikyttala/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'argentine-tango.jpg',
+    title: 'Dance Calendar',
+    info: 'Comment and save your favourite ballrooms',
+    info2: 'Make calendar notes and much more ...',
+    url: 'https://dance-calendar-test.herokuapp.com/home',
+    repo: 'https://github.com/lasse1900/dance-calendar-test', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'contact-memo.png',
+    title: 'Contact Memo',
+    info: 'Save and sort all your contacts',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://contactmemo.apphb.com/',
+    repo: 'https://bitbucket.org/LauriKy/contactmemo/src/master/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'weather.png',
+    title: 'Weather & Population',
+    info: 'Get country population and weather in the capital',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://coutry-info-ver2.netlify.app/',
+    repo: 'https://github.com/lasse1900/country-info-ver2', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'LUT.png',
+    title: 'My Thesis',
+    info: 'The Development of Practical Programming Course at LUT-university',
+    info2: '',
+    url: 'https://lutpub.lut.fi/handle/10024/72533',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -68,22 +77,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/laurikyt',
     },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: 'https://codepen.io/trending',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/laurikyttala/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/lasse1900',
     },
   ],
 };
