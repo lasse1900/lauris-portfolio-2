@@ -55,15 +55,6 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'weather.png',
-    title: 'Weather & Population',
-    info: 'Get country population and weather in the capital',
-    info2: '',
-    url: 'https://coutry-info-ver2.netlify.app/',
-    repo: 'https://github.com/lasse1900/country-info-ver2', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'LUT.png',
     title: 'My Thesis',
     info: 'The Development of Practical Programming Course at LUT-university',
