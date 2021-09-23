@@ -30,8 +30,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'argentine-tango.jpg',
     title: 'Dance Calendar',
-    info: 'Comment and save your favourite ballrooms',
-    info2: 'Make calendar notes and much more ...',
+    info: 'Comment and save your favourite ballrooms, make calendar notes and much more',
+    info2: 'Nodejs, React, Redux, MongoDB',
     url: 'https://dance-calendar-test.herokuapp.com/home',
     repo: 'https://github.com/lasse1900/dance-calendar-test', // if no repo, the button will not show up
   },
@@ -40,7 +40,7 @@ export const projectsData = [
     img: 'girlsFace.jpg',
     title: 'Facerecognition App',
     info: 'AI face recognition ',
-    info2: 'Node.js, React, PostgreSQL',
+    info2: 'Nodejs, ReactJS, PostgreSQL',
     url: 'https://facerecognition-lk.herokuapp.com/',
     repo: 'https://github.com/lasse1900/facerecognition-app', // if no repo, the button will not show up
   },
@@ -49,7 +49,7 @@ export const projectsData = [
     img: 'contact-memo.png',
     title: 'Contact Memo',
     info: 'Save and sort all your contacts',
-    info2: 'ASP.NET',
+    info2: 'ASP.NET, C#',
     url: 'http://contactmemo.apphb.com/',
     repo: 'https://bitbucket.org/LauriKy/contactmemo/src/master/', // if no repo, the button will not show up
   },
