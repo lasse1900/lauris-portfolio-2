@@ -37,10 +37,19 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'girlsFace.jpg',
+    title: 'Facerecognition App',
+    info: 'AI face recognition ',
+    info2: 'Node.js, React, PostgreSQL',
+    url: 'https://facerecognition-lk.herokuapp.com/',
+    repo: 'https://github.com/lasse1900/facerecognition-app', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'contact-memo.png',
     title: 'Contact Memo',
     info: 'Save and sort all your contacts',
-    info2: '',
+    info2: 'ASP.NET',
     url: 'http://contactmemo.apphb.com/',
     repo: 'https://bitbucket.org/LauriKy/contactmemo/src/master/', // if no repo, the button will not show up
   },
