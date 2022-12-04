@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Dance Calendar',
     info: 'Comment and save your favourite ballrooms, make calendar notes and much more',
     info2: 'Nodejs, React, Redux, MongoDB',
-    url: 'https://dance-calendar-test.herokuapp.com/home',
+    url: 'https://dance-calendar.herokuapp.com/home',
     repo: 'https://github.com/lasse1900/dance-calendar-test', // if no repo, the button will not show up
   },
   {
